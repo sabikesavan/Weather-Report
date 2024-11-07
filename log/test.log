@@ -1,0 +1,303 @@
+  [1m[35m (3.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 114)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 276)
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 4592)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 70)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 199)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 629)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 70)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 623)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 70)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 199)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 522)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/weather/forecast" for 127.0.0.1 at 2024-11-07 09:34:16 +0530
+Processing by WeatherController#forecast as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1019)
+  Rendered layout layouts/application.html.erb (Duration: 211.6ms | Allocations: 95488)
+Completed 200 OK in 212ms (Views: 211.9ms | ActiveRecord: 0.0ms | Allocations: 95769)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 138)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 321)
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 4636)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 678)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 672)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 571)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/weather/forecast" for 127.0.0.1 at 2024-11-07 09:35:26 +0530
+Processing by WeatherController#forecast as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1043)
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 33043)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms | Allocations: 33324)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.3ms | Allocations: 138)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 321)
+Completed 200 OK in 10ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 4636)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 678)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 672)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 571)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/weather/forecast" for 127.0.0.1 at 2024-11-07 09:36:11 +0530
+Processing by WeatherController#forecast as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1043)
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 33051)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms | Allocations: 33332)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 138)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 321)
+Completed 200 OK in 8ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 4637)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 678)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 672)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 571)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/weather/forecast" for 127.0.0.1 at 2024-11-07 09:36:47 +0530
+Processing by WeatherController#forecast as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1043)
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 33038)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms | Allocations: 33319)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 138)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 321)
+Completed 200 OK in 10ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 4636)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 678)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>"600001"}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 672)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by WeatherController#forecast as HTML
+  Parameters: {"address"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 248)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 571)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/weather/forecast" for 127.0.0.1 at 2024-11-07 09:37:47 +0530
+Processing by WeatherController#forecast as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering weather/forecast.html.erb within layouts/application
+  Rendered weather/forecast.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1043)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 33038)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 33319)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
