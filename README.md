@@ -9,11 +9,11 @@ Weather data is cached to reduce API calls and improve response time.
 Built with Ruby on Rails, leveraging the OpenWeather API for weather data.
 
 # Technologies Used
-Ruby on Rails – Framework for building web applications.
-OpenWeather API – Provides weather data for a given location.
-Rails Caching – Used to store weather data temporarily.
-RSpec – Testing framework for Ruby applications.
-WebMock – Library to simulate HTTP requests in tests.
+1. Ruby on Rails – Framework for building web applications.
+2. OpenWeather API – Provides weather data for a given location.
+3. Rails Caching – Used to store weather data temporarily.
+4. RSpec – Testing framework for Ruby applications.
+5. WebMock – Library to simulate HTTP requests in tests.
 
 ## Setup
 1. Clone the repository.
